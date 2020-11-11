@@ -5,3 +5,6 @@ For this project, I worked with the dataset Cushings in library MASS, which has 
 
 ## Motivation
 If left untreated, Cushing’s syndrome causes the pituitary gland to keep producing massive amounts of cortisol, leading to symptoms of obesity, high blood pressure, acne, increased risk for heart attack, and other side effects. It is critical to diagnose patients with the correct type of Cushing’s syndrome so they can receive the appropriate treatment. The three models in this project help to distinguish between the three types of the condition.
+
+
+![User contour plot to compare all three models](Images/CushingsVisual.png)

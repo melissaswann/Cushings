@@ -37,6 +37,7 @@ points(meanB[1], meanB[2], pch=19, cex=2)
 points(meanC[1], meanC[2], pch=19, cex=2)
 ```
 
+## Visualization
 ![User contour plot to compare all three models](Images/CushingsVisual.png)
 
 ## Next Steps

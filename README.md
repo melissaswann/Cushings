@@ -42,4 +42,7 @@ points(meanC[1], meanC[2], pch=19, cex=2)
 ## Next Steps
 With such a small dataset, these models lack predictive power; I would not confidently recommend that doctors use these models to diagnose Cushing's syndrome in patients beyond this sample. To expand on my work, I would like to retrain the LDA, QDA, and multinomial logistic regression models on a much larger data set for Cushing's patients with the goal of providing guidelines to help medical professionals distinguish between the three types of Cushing's syndrome.
 
+## Collaborators
+Alessandra Miranda, Williams College Class of 2020
+
 

@@ -22,7 +22,6 @@ Z.m <- multinom(Type ~ logTetrahydrocortisone + logPregnanetriol, data = Cf)
 Z.m
 
 # Contour plot comparing the performance of all three models
-
 plot(Cf_u_included[,1], Cf_u_included[,2], type="n",xlab = "log Tetrahydrocortisone", ylab ="log Pregnanetriol")
 text(Cf_u_included[,1], Cf_u_included[,2],labels=Cf_u_included$Type) 
 contour(xp,yp,Z.p1m,levels=0,add=T,col="purple") # multinomial
@@ -40,5 +39,7 @@ points(meanC[1], meanC[2], pch=19, cex=2)
 
 ![User contour plot to compare all three models](Images/CushingsVisual.png)
 
+## Next Steps
+With such a small dataset, these models lack predictive power; I would not confidently recommend that doctors use these models to diagnose Cushing's syndrome in patients beyond this sample. To expand on my work, I would like to retrain the LDA, QDA, and multinomial logistic regression models on a much larger data set for Cushing's patients with the goal of providing guidelines to help medical professionals distinguish between the three types of Cushing's syndrome.
 
 
